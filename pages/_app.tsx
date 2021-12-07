@@ -18,7 +18,7 @@ function App({ Component, pageProps }) {
   const realmName = realmInfo?.displayName ?? realm?.info?.name
 
   const title = realmName ? `${realmName}` : 'Traders Guild Governance'
-  const description = `Discuss and vote on ${title} proposals.`
+  const description = `Discuss and vote on Trader's Guild proposals.`
 
   // Note: ?v==${Date.now()} is added to the url to force favicon refresh.
   // Without it browsers would cache the last used and won't change it for different realms
