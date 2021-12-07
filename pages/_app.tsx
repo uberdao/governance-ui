@@ -42,27 +42,18 @@ function App({ Component, pageProps }) {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {realmInfo?.keywords && (
-          <meta name="keywords" content={realmInfo.keywords} />
-        )}
-
         <meta name="description" content={description} />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        {realmInfo?.ogImage && (
-          <meta property="og:image" content="/img/tg-logo.png"  />
-        )}
+
         <meta name="twitter:card" content="summary" />
-      <meta property="og:image" content="/img/tg-logo.png" >
-      <meta property="twitter:image" content="/img/tg-logo.png" >
-        {realmInfo?.twitter && (
-          <meta name="twitter:site" content={realmInfo.twitter} />
-        )}
+        <meta property="og:image" content="/img/tg-logo.png" />
+        <meta property="twitter:image" content="/img/tg-logo.png" />
+
       </Head>
 
       <ThemeProvider defaultTheme="Mango">
