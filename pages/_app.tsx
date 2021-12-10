@@ -51,8 +51,8 @@ function App({ Component, pageProps }) {
         <meta property="og:description" content={description} />
 
         <meta name="twitter:card" content="summary" />
-        <meta property="og:image" content="/img/tg-logo.png" />
-        <meta property="twitter:image" content="/img/tg-logo.png" />
+        <meta property="og:image" content="/img/gg-logo.png" />
+        <meta property="twitter:image" content="/img/gg-logo.png" />
 
       </Head>
 
